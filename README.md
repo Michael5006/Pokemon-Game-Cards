@@ -62,4 +62,4 @@ Si deseas contribuir:
 4. **Abre un Pull Request** en GitHub.
 
 ---
-✨ **Desarrollado con pasión por [Tu Nombre]** ✨
+✨ **Desarrollado con pasión por [Michael Hernández]** ✨
