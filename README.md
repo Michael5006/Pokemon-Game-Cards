@@ -1,6 +1,6 @@
 # ✨ Pokemon Game Cards - Android App
 
-![Pokemon Game Cards]([https://yourimageurl.com](https://i.ibb.co/XqdvGZW/logo.png))  
+![Pokemon Game Cards](https://i.ibb.co/XqdvGZW/logo.png) 
 
 ## 📚 Descripción
 **Pokemon Game Cards** es una aplicación para Android que permite a los usuarios explorar tarjetas interactivas de diferentes Pokémon, visualizar sus características y realizar selecciones en una interfaz atractiva. La app está diseñada siguiendo el patrón **MVC** y aplicando **POO** en Java.
