@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity">
+
+    <ImageView
+        android:id="@+id/image_pikachu_card"
+        android:layout_width="364dp"
+        android:layout_height="555dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/carta_pikachu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Botón Invisible para Impactrueno -->
+
+    <!-- Botón Invisible para Puño Trueno -->
+
+    <!-- Botón Invisible para Ataque de Rayo -->
+
+    <Button
+        android:id="@+id/btn_impactrueno"
+        android:layout_width="307dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="416dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="@id/image_pikachu_card"
+        app:layout_constraintTop_toTopOf="@id/image_pikachu_card" />
+
+    <Button
+        android:id="@+id/btn_punio_trueno"
+        android:layout_width="262dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="456dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="@id/image_pikachu_card"
+        app:layout_constraintTop_toTopOf="@id/image_pikachu_card" />
+
+    <Button
+        android:id="@+id/btn_ataque_rayo"
+        android:layout_width="292dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="496dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="@id/image_pikachu_card"
+        app:layout_constraintTop_toTopOf="@id/image_pikachu_card" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

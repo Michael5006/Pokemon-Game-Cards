@@ -1,6 +1,7 @@
 package com.example.pokemongamecards.view;
 
 import android.os.Bundle;
+import android.widget.Button;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -22,5 +23,11 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        Button btnVerCartaPikachu = findViewById(R.id.button3); // ID del botón "Ver Carta"
+        btnVerCartaPikachu.setOnClickListener(v -> {
+            ModalPikachu dialog = new ModalPikachu();
+            dialog.show(getSupportFragmentManager(), "PikachuDialog");
+        });
+
     }
 }

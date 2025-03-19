@@ -6,22 +6,22 @@ public class Pikachu extends Pokemon implements IElectrico {
     }
 
     @Override
-    public void atacarImpactrueno() {
-        System.out.println(nombrePokemon+ " Ha usado Impatrueno");
+    public String atacarImpactrueno() {
+        return nombrePokemon + " ha usado Impactrueno!";
     }
 
     @Override
-    public void atacarPunioTrueno() {
-        System.out.println(nombrePokemon+ " Ha usado Puño de trueno");
+    public String atacarPunioTrueno() {
+        return nombrePokemon + " ha usado Puño Trueno!";
     }
 
     @Override
-    public void atacarRayo() {
-        System.out.println(nombrePokemon+ " Ha usado Rayo");
+    public String atacarRayo() {
+        return nombrePokemon + " ha usado Rayo!";
     }
 
     @Override
-    public void atacarRayoCarga() {
-        System.out.println(nombrePokemon+ " Ha usado Rayo de carga");
+    public String atacarRayoCarga() {
+        return nombrePokemon + " ha usado Rayo de Carga!";
     }
 }
